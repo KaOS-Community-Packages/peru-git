@@ -11,10 +11,7 @@ pkgver() {
 }
 depends=('git' 'python3')
 makedepends=('python3-setuptools')
-optdepends=(
-  'mercurial: fetching from hg repos'
-  'subversion: fetching from svn repos'
-)
+optdepends=('mercurial' 'subversion')
 source=('git://github.com/buildinspace/peru')
 sha512sums=('SKIP')
 
